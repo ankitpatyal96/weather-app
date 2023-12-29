@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 100,
+        "lat": 60
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 17,
+        "feels_like": 15.88,
+        "temp_min": 17,
+        "temp_max": 17,
+        "pressure": 1009,
+        "humidity": 43,
+        "sea_level": 1009,
+        "grnd_level": 973
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.98,
+        "deg": 252,
+        "gust": 5.4
+    },
+    "clouds": {
+        "all": 52
+    },
+    "dt": 1624787262,
+    "sys": {
+        "country": "RU",
+        "sunrise": 1624737507,
+        "sunset": 1624805243
+    },
+    "timezone": 25200,
+    "id": 2017370,
+    "name": "Russia",
+    "cod": 200
+}

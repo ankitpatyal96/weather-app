@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -117.6509,
+        "lat": 34.0633
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 21.22,
+        "feels_like": 20.94,
+        "temp_min": 14.71,
+        "temp_max": 29.82,
+        "pressure": 1008,
+        "humidity": 59
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.06,
+        "deg": 0
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1624787461,
+    "sys": {
+        "type": 1,
+        "id": 5214,
+        "country": "US",
+        "sunrise": 1624797681,
+        "sunset": 1624849556
+    },
+    "timezone": -25200,
+    "id": 5379439,
+    "name": "Ontario",
+    "cod": 200
+}

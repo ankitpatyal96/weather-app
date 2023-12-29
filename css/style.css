@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x800/?landscape');
+    background-size: cover;
+}
+
+.main{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box input{
+    border-radius: 2em;
+    width: 80%;
+    margin: 1em 0.1em;
+    font-size: 1em;
+    padding: 0.8em;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.search-box button{
+    border-radius: 50%;
+    border: none;
+    margin: 1em 1em;
+    padding:  1em 1em ;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.search-box button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.weather-description{
+    display: flex;
+    text-transform: capitalize;
+}
+
+.description{
+    margin: auto 0;
+}
+
+.temperature{
+    margin-bottom: 0.5em ;
+}
+
+.weather-box.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+  
+.weather-box.loading::after {
+    visibility: visible;
+    content: "Location not found";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}

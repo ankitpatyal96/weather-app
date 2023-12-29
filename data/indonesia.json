@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 9.1406,
+        "lat": 48.691
+    },
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 25.22,
+        "feels_like": 25.18,
+        "temp_min": 23.41,
+        "temp_max": 26.38,
+        "pressure": 1016,
+        "humidity": 53
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.57,
+        "deg": 80
+    },
+    "clouds": {
+        "all": 20
+    },
+    "dt": 1624787642,
+    "sys": {
+        "type": 1,
+        "id": 1274,
+        "sunrise": 1624764155,
+        "sunset": 1624822213
+    },
+    "timezone": 7200,
+    "id": 6255148,
+    "name": "INDONESIA",
+    "cod": 200
+}
